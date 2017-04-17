@@ -1,0 +1,252 @@
+/***** a css helper library *****/
+
+
+
+/***** font size section *****/
+
+
+/* 66px font size*/
+
+.font-66-px{
+	font-size: 66px;
+}
+
+/* 50px font size*/
+
+.font-50-px{
+	font-size: 50px;
+}
+
+/* 38px font size*/
+
+.font-38-px{
+	font-size: 38px;
+}
+
+/* 28px font size*/
+
+.font-28-px{
+	font-size: 28px;
+}
+
+/* 21px font size*/
+
+.font-21-px{
+	font-size: 21px;
+}
+
+/* 16px font size*/
+
+.font-16-px{
+	font-size: 16px;
+}
+
+/* 14px font size*/
+
+.font-14-px{
+	font-size: 14px!important;
+}
+
+/* 13px font size*/
+
+.font-13-px{
+	font-size: 13px!important;
+}
+
+/* 12px font size*/
+
+.font-12-px{
+	font-size: 12px;
+}
+
+/* 9px font size*/
+
+.font-9-px{
+	font-size: 9px;
+}
+
+/* font smoother class in chrome and mozilla browser */
+
+.font-smoother{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/***** end of font size section *****/
+
+
+
+
+/***** border radius section *****/
+
+/* 2px border radius */
+
+.border-radius-2-px{
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* 4px border radius */
+
+.border-radius-4-px{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* 6px border radius */
+
+.border-radius-6-px{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* 8px border radius */
+
+.border-radius-8-px{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+/* rounded border */
+
+.rounded-border{
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/***** end of border radius section *****/
+
+
+
+
+/***** text align section *****/
+
+/* right aligned text in large devices */
+
+@media(min-width: 1200px){
+	.text-right-lg{
+		text-align: right;
+	}
+}
+
+/* right aligned text in medium devices */
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.text-right-md{
+		text-align: right;
+	}
+}
+
+/* right aligned text in small devices */
+
+@media(min-width: 768px) and (max-width: 991px){
+	.text-right-sm{
+		text-align: right;
+	}
+}
+
+/* right aligned text in mobile devices */
+
+@media(max-width: 767px){
+	.text-right-xs{
+		text-align: right;
+	}
+}
+
+/* left aligned text in large devices */
+
+@media(min-width: 1200px){
+	.text-left-lg{
+		text-align: left;
+	}
+}
+
+/* left aligned text in medium devices */
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.text-left-md{
+		text-align: left;
+	}
+}
+
+/* left aligned text in small devices */
+
+@media(min-width: 768px) and (max-width: 991px){
+	.text-left-sm{
+		text-align: left;
+	}
+}
+
+/* left aligned text in mobile devices */
+
+@media(max-width: 767px){
+	.text-left-xs{
+		text-align: left;
+	}
+}
+
+/* center aligned text in large devices */
+
+@media(min-width: 1200px){
+	.text-center-lg{
+		text-align: center;
+	}
+}
+
+/* center aligned text in medium devices */
+
+@media(min-width: 992px) and (max-width: 1199px){
+	.text-center-md{
+		text-align: center;
+	}
+}
+
+/* center aligned text in small devices */
+
+@media(min-width: 768px) and (max-width: 991px){
+	.text-center-sm{
+		text-align: center;
+	}
+}
+
+/* center aligned text in mobile devices */
+
+@media(max-width: 767px){
+	.text-center-xs{
+		text-align: center;
+	}
+}
+
+/***** end of text align section *****/
+
+
+
+
+/***** float section *****/
+
+/* floating element in mobile devices */
+
+@media(max-width: 767px){
+	.pull-left-xs{
+		float: left;
+	}
+
+	.pull-right-xs{
+		float: left;
+	}
+
+	.pull-left-xs-important{
+		float: right!important;
+	}
+
+	.pull-right-xs-important{
+		float: right!important;
+	}
+}
+
+/***** float section *****/
