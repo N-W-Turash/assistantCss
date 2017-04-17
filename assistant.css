@@ -232,6 +232,7 @@
 /* floating element in mobile devices */
 
 @media(max-width: 767px){
+
 	.pull-left-xs{
 		float: left;
 	}
@@ -247,6 +248,111 @@
 	.pull-right-xs-important{
 		float: right!important;
 	}
+
+	.no-float-xs{
+		float: none;
+	}
+
+	.no-float-xs-important{
+		float: none;
+	}
+}
+
+/* floating element in small devices */
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	.pull-left-sm{
+		float: left;
+	}
+
+	.pull-right-sm{
+		float: left;
+	}
+
+	.pull-left-sm-important{
+		float: right!important;
+	}
+
+	.pull-right-sm-important{
+		float: right!important;
+	}
+
+	.no-float-sm{
+		float: none;
+	}
+
+	.no-float-sm-important{
+		float: none;
+	}
+}
+
+/* floating element in medium devices */
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+	.pull-left-md{
+		float: left;
+	}
+
+	.pull-right-md{
+		float: left;
+	}
+
+	.pull-left-md-important{
+		float: right!important;
+	}
+
+	.pull-right-md-important{
+		float: right!important;
+	}
+
+	.no-float-md{
+		float: none;
+	}
+
+	.no-float-md-important{
+		float: none;
+	}
+}
+
+/* floating element in large devices */
+
+@media(min-width: 1200px){
+
+	.pull-left-lg{
+		float: left;
+	}
+
+	.pull-right-lg{
+		float: left;
+	}
+
+	.pull-left-lg-important{
+		float: right!important;
+	}
+
+	.pull-right-lg-important{
+		float: right!important;
+	}
+
+	.no-float-lg{
+		float: none;
+	}
+
+	.no-float-lg-important{
+		float: none;
+	}
+}
+
+/* no floating element across all devices*/
+
+.no-float{
+	float: none;
+}
+
+.no-float-important{
+	float: none!important;
 }
 
 /***** float section *****/
