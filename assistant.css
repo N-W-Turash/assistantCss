@@ -44,13 +44,13 @@
 /* 14px font size*/
 
 .font-14-px{
-	font-size: 14px!important;
+	font-size: 14px;
 }
 
 /* 13px font size*/
 
 .font-13-px{
-	font-size: 13px!important;
+	font-size: 13px;
 }
 
 /* 12px font size*/
@@ -233,19 +233,19 @@
 
 @media(max-width: 767px){
 
-	.pull-left-xs{
+	.float-left-xs{
 		float: left;
 	}
 
-	.pull-right-xs{
+	.float-right-xs{
 		float: left;
 	}
 
-	.pull-left-xs-important{
+	.float-left-xs-important{
 		float: right!important;
 	}
 
-	.pull-right-xs-important{
+	.float-right-xs-important{
 		float: right!important;
 	}
 
@@ -262,19 +262,19 @@
 
 @media(min-width: 768px) and (max-width: 991px){
 
-	.pull-left-sm{
+	.float-left-sm{
 		float: left;
 	}
 
-	.pull-right-sm{
+	.float-right-sm{
 		float: left;
 	}
 
-	.pull-left-sm-important{
+	.float-left-sm-important{
 		float: right!important;
 	}
 
-	.pull-right-sm-important{
+	.float-right-sm-important{
 		float: right!important;
 	}
 
@@ -291,19 +291,19 @@
 
 @media(min-width: 992px) and (max-width: 1199px){
 
-	.pull-left-md{
+	.float-left-md{
 		float: left;
 	}
 
-	.pull-right-md{
+	.float-right-md{
 		float: left;
 	}
 
-	.pull-left-md-important{
+	.float-left-md-important{
 		float: right!important;
 	}
 
-	.pull-right-md-important{
+	.float-right-md-important{
 		float: right!important;
 	}
 
@@ -320,19 +320,19 @@
 
 @media(min-width: 1200px){
 
-	.pull-left-lg{
+	.float-left-lg{
 		float: left;
 	}
 
-	.pull-right-lg{
+	.float-right-lg{
 		float: left;
 	}
 
-	.pull-left-lg-important{
+	.float-left-lg-important{
 		float: right!important;
 	}
 
-	.pull-right-lg-important{
+	.float-right-lg-important{
 		float: right!important;
 	}
 
